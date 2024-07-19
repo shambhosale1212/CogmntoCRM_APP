@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseClass {
 	protected static Properties prop;
 	protected static FileInputStream fis;
-	protected static WebDriver driver;
+	public static WebDriver driver;
 	
 	
 	

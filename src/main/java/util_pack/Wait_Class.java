@@ -16,4 +16,13 @@ public class Wait_Class extends BaseClass
 		 wait = new WebDriverWait(driver,Duration.ofSeconds(30));
 		 return wait.until(ExpectedConditions.visibilityOf(wb));
 	}
+	public void sendKeys(WebElement wb ,String value)
+	{
+		Wait_Class.visibilityOf(wb).sendKeys(value);
+	}
+	
+	public void click (WebElement wb )
+	{
+		Wait_Class.visibilityOf(wb).click();
+	}
 }
